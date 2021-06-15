@@ -1,0 +1,113 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+  background-color: oldlace;
+}
+
+.navbar-default{
+  background-color: black;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+
+  
+}
+
+
+
+/*//dropdown menu*/
+li .dropdown{
+  display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+  }
+ 
+  .isi-dropdown a:hover {
+    color: #fff !important;
+    font-size: 14px;
+   
+    color:white;
+  }
+ 
+  .isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: black;
+    width: 300px;
+    float:inherit;
+  }
+ 
+  .isi-dropdown a {
+    color: white !important;
+
+  }
+ 
+  .isi-dropdown a:hover {
+    color: white!important;
+    
+  }
+
+
+.navbar-nav{
+  float:right;
+}
+
+.footer .container p {
+  margin: 10px 0;
+}
+
+.mtop{
+    margin-top: 10px;
+}
+.nw {
+    white-space: nowrap;
+}
+.aw{
+    width: auto;
+}
+.nav-tabs{
+    margin-bottom: 20px;
+}
+
+.table .thumbnail{
+    margin: 0;
+}
+
+.panel-footer .pagination {
+    margin: 0;
+}
+
+.page-header {
+    margin-top: 0;
+    padding-bottom: 0;
+}
+.page-header h1 {
+    margin-top: 0;
+}
+
+.oxa {
+    overflow-x: auto;
+}
+.panel .oxa {
+    margin: -1px;
+}
+.oxa .table{
+    margin-bottom: 0;
+}
+.panel .oxa .table thead tr:first-child th {
+    border-bottom: 0;
+}
